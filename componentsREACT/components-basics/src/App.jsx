@@ -1,19 +1,17 @@
 import { useState } from 'react'
 import './App.css'
+import Title from './components/Title/Title'
+import Subtitle from './components/Subtitle/Subtitle'
+import Image from './components/Image/Image'
+import Paragraph from './components/Paragraph/Paragraph'
 
-/*
 
-    -Tittle: Componente <h1> con el texto "Welcome to Components ReactJS"
-    -Subtittle: Componente <h2> con el texto "This is a example components with ReactJS"
-    -Image: Crea un componente imagen <img> 
-    -Paragraph: Crea un componente paragraph <p> con el texto que quieras
 
-*/
 
 function App() {
   return (
     <>
-  <Title/>
+  <Title variables={'Hola soy la prop'}/>
   <Subtitle/>
   <Image/>
   <Paragraph/>

@@ -4,7 +4,7 @@ import "./Subtitle.css"
 const Subtitle = (props) => {
   const {data}=props
   return (
-   <h2>(data)</h2>
+   <h2>{data}</h2>
   )
 }
 
